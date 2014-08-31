@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B708F119B2DFE200839B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F019B2DFE200839B29 /* Foundation.framework */; };
+		21B708F319B2DFE200839B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F219B2DFE200839B29 /* CoreGraphics.framework */; };
+		21B708F519B2DFE200839B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F419B2DFE200839B29 /* UIKit.framework */; };
+		21B708F719B2DFE200839B29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F619B2DFE200839B29 /* CoreData.framework */; };
+		21B708FD19B2DFE200839B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21B708FB19B2DFE200839B29 /* InfoPlist.strings */; };
+		21B708FF19B2DFE200839B29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B708FE19B2DFE200839B29 /* main.m */; };
+		21B7090319B2DFE200839B29 /* pickeyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B7090219B2DFE200839B29 /* pickeyAppDelegate.m */; };
+		21B7090619B2DFE200839B29 /* pickey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21B7090419B2DFE200839B29 /* pickey.xcdatamodeld */; };
+		21B7090819B2DFE200839B29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B7090719B2DFE200839B29 /* Images.xcassets */; };
+		21B7090F19B2DFE200839B29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B7090E19B2DFE200839B29 /* XCTest.framework */; };
+		21B7091019B2DFE200839B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F019B2DFE200839B29 /* Foundation.framework */; };
+		21B7091119B2DFE200839B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F419B2DFE200839B29 /* UIKit.framework */; };
+		21B7091219B2DFE200839B29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B708F619B2DFE200839B29 /* CoreData.framework */; };
+		21B7091A19B2DFE200839B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21B7091819B2DFE200839B29 /* InfoPlist.strings */; };
+		21B7091C19B2DFE200839B29 /* pickeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B7091B19B2DFE200839B29 /* pickeyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B7091319B2DFE200839B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B708E519B2DFE200839B29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B708EC19B2DFE200839B29;
+			remoteInfo = pickey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B708ED19B2DFE200839B29 /* pickey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B708F019B2DFE200839B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21B708F219B2DFE200839B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21B708F419B2DFE200839B29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21B708F619B2DFE200839B29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21B708FA19B2DFE200839B29 /* pickey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pickey-Info.plist"; sourceTree = "<group>"; };
+		21B708FC19B2DFE200839B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21B708FE19B2DFE200839B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21B7090019B2DFE200839B29 /* pickey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pickey-Prefix.pch"; sourceTree = "<group>"; };
+		21B7090119B2DFE200839B29 /* pickeyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickeyAppDelegate.h; sourceTree = "<group>"; };
+		21B7090219B2DFE200839B29 /* pickeyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickeyAppDelegate.m; sourceTree = "<group>"; };
+		21B7090519B2DFE200839B29 /* pickey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pickey.xcdatamodel; sourceTree = "<group>"; };
+		21B7090719B2DFE200839B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21B7090D19B2DFE200839B29 /* pickeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B7090E19B2DFE200839B29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		21B7091719B2DFE200839B29 /* pickeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pickeyTests-Info.plist"; sourceTree = "<group>"; };
+		21B7091919B2DFE200839B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21B7091B19B2DFE200839B29 /* pickeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickeyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B708EA19B2DFE200839B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B708F319B2DFE200839B29 /* CoreGraphics.framework in Frameworks */,
+				21B708F719B2DFE200839B29 /* CoreData.framework in Frameworks */,
+				21B708F519B2DFE200839B29 /* UIKit.framework in Frameworks */,
+				21B708F119B2DFE200839B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B7090A19B2DFE200839B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B7090F19B2DFE200839B29 /* XCTest.framework in Frameworks */,
+				21B7091219B2DFE200839B29 /* CoreData.framework in Frameworks */,
+				21B7091119B2DFE200839B29 /* UIKit.framework in Frameworks */,
+				21B7091019B2DFE200839B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B708E419B2DFE200839B29 = {
+			isa = PBXGroup;
+			children = (
+				21B708F819B2DFE200839B29 /* pickey */,
+				21B7091519B2DFE200839B29 /* pickeyTests */,
+				21B708EF19B2DFE200839B29 /* Frameworks */,
+				21B708EE19B2DFE200839B29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21B708EE19B2DFE200839B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21B708ED19B2DFE200839B29 /* pickey.app */,
+				21B7090D19B2DFE200839B29 /* pickeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21B708EF19B2DFE200839B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21B708F019B2DFE200839B29 /* Foundation.framework */,
+				21B708F219B2DFE200839B29 /* CoreGraphics.framework */,
+				21B708F419B2DFE200839B29 /* UIKit.framework */,
+				21B708F619B2DFE200839B29 /* CoreData.framework */,
+				21B7090E19B2DFE200839B29 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21B708F819B2DFE200839B29 /* pickey */ = {
+			isa = PBXGroup;
+			children = (
+				21B7090119B2DFE200839B29 /* pickeyAppDelegate.h */,
+				21B7090219B2DFE200839B29 /* pickeyAppDelegate.m */,
+				21B7090719B2DFE200839B29 /* Images.xcassets */,
+				21B7090419B2DFE200839B29 /* pickey.xcdatamodeld */,
+				21B708F919B2DFE200839B29 /* Supporting Files */,
+			);
+			path = pickey;
+			sourceTree = "<group>";
+		};
+		21B708F919B2DFE200839B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B708FA19B2DFE200839B29 /* pickey-Info.plist */,
+				21B708FB19B2DFE200839B29 /* InfoPlist.strings */,
+				21B708FE19B2DFE200839B29 /* main.m */,
+				21B7090019B2DFE200839B29 /* pickey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21B7091519B2DFE200839B29 /* pickeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				21B7091B19B2DFE200839B29 /* pickeyTests.m */,
+				21B7091619B2DFE200839B29 /* Supporting Files */,
+			);
+			path = pickeyTests;
+			sourceTree = "<group>";
+		};
+		21B7091619B2DFE200839B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B7091719B2DFE200839B29 /* pickeyTests-Info.plist */,
+				21B7091819B2DFE200839B29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B708EC19B2DFE200839B29 /* pickey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B7091F19B2DFE200839B29 /* Build configuration list for PBXNativeTarget "pickey" */;
+			buildPhases = (
+				21B708E919B2DFE200839B29 /* Sources */,
+				21B708EA19B2DFE200839B29 /* Frameworks */,
+				21B708EB19B2DFE200839B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickey;
+			productName = pickey;
+			productReference = 21B708ED19B2DFE200839B29 /* pickey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21B7090C19B2DFE200839B29 /* pickeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B7092219B2DFE200839B29 /* Build configuration list for PBXNativeTarget "pickeyTests" */;
+			buildPhases = (
+				21B7090919B2DFE200839B29 /* Sources */,
+				21B7090A19B2DFE200839B29 /* Frameworks */,
+				21B7090B19B2DFE200839B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B7091419B2DFE200839B29 /* PBXTargetDependency */,
+			);
+			name = pickeyTests;
+			productName = pickeyTests;
+			productReference = 21B7090D19B2DFE200839B29 /* pickeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B708E519B2DFE200839B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = pickey;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shunichi Mochizuki";
+				TargetAttributes = {
+					21B7090C19B2DFE200839B29 = {
+						TestTargetID = 21B708EC19B2DFE200839B29;
+					};
+				};
+			};
+			buildConfigurationList = 21B708E819B2DFE200839B29 /* Build configuration list for PBXProject "pickey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21B708E419B2DFE200839B29;
+			productRefGroup = 21B708EE19B2DFE200839B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B708EC19B2DFE200839B29 /* pickey */,
+				21B7090C19B2DFE200839B29 /* pickeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21B708EB19B2DFE200839B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B708FD19B2DFE200839B29 /* InfoPlist.strings in Resources */,
+				21B7090819B2DFE200839B29 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B7090B19B2DFE200839B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B7091A19B2DFE200839B29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B708E919B2DFE200839B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B708FF19B2DFE200839B29 /* main.m in Sources */,
+				21B7090619B2DFE200839B29 /* pickey.xcdatamodeld in Sources */,
+				21B7090319B2DFE200839B29 /* pickeyAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B7090919B2DFE200839B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B7091C19B2DFE200839B29 /* pickeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21B7091419B2DFE200839B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B708EC19B2DFE200839B29 /* pickey */;
+			targetProxy = 21B7091319B2DFE200839B29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21B708FB19B2DFE200839B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B708FC19B2DFE200839B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21B7091819B2DFE200839B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B7091919B2DFE200839B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21B7091D19B2DFE200839B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21B7091E19B2DFE200839B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21B7092019B2DFE200839B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickey/pickey-Prefix.pch";
+				INFOPLIST_FILE = "pickey/pickey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21B7092119B2DFE200839B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickey/pickey-Prefix.pch";
+				INFOPLIST_FILE = "pickey/pickey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		21B7092319B2DFE200839B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pickey.app/pickey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickey/pickey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pickeyTests/pickeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		21B7092419B2DFE200839B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pickey.app/pickey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickey/pickey-Prefix.pch";
+				INFOPLIST_FILE = "pickeyTests/pickeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B708E819B2DFE200839B29 /* Build configuration list for PBXProject "pickey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B7091D19B2DFE200839B29 /* Debug */,
+				21B7091E19B2DFE200839B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B7091F19B2DFE200839B29 /* Build configuration list for PBXNativeTarget "pickey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B7092019B2DFE200839B29 /* Debug */,
+				21B7092119B2DFE200839B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21B7092219B2DFE200839B29 /* Build configuration list for PBXNativeTarget "pickeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B7092319B2DFE200839B29 /* Debug */,
+				21B7092419B2DFE200839B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21B7090419B2DFE200839B29 /* pickey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21B7090519B2DFE200839B29 /* pickey.xcdatamodel */,
+			);
+			currentVersion = 21B7090519B2DFE200839B29 /* pickey.xcdatamodel */;
+			path = pickey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21B708E519B2DFE200839B29 /* Project object */;
+}
